@@ -62,3 +62,19 @@ aside {
     color: #00d9ca;
     text-shadow: 1px 1px 2px black, 0 0 1em gray;
 }
+aside *{
+    transition-duration: 0.5s;
+}
+#reset {
+  border-color: #3498db;
+    font-size: 70%;
+  color: #fff;
+    padding: 10%;
+  box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+#reset:hover {
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+    color: #3498db;
+}
